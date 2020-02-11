@@ -4,10 +4,18 @@
   src: url(fonts/Gilroy-Medium.woff.woff);
 }
 
-
 body{
 	background-color: #DDDDDD;
 	font-family: 'Gilroy-Medium', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover{
+	opacity: 0.7;
 }
 
 header {
@@ -15,3 +23,51 @@ header {
 	justify-content: space-between;
 	padding: 25px 5%;
 }
+
+.header__logo:hover{
+	opacity: 0.7;
+}
+
+.header__nav {
+	display: flex;
+	margin: 14px 0 0 0;
+}
+
+.header__nav__menubtn__line {
+	width: 25px;
+	height: 2px;
+	left: 1304px;
+	top: 52px;
+	background: #000000;
+}
+
+.header__nav__menubtn__line__second {
+	margin-top: 10px;
+}
+
+.header__nav__menubtn {
+	margin: 4px 0 0 15px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.header__nav__menubtn:hover{
+	opacity: 1;
+}
+
+.header__nav__navline {
+	font-family: 'Gilroy-Medium', sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.navline__active {
+	opacity: 1;
+}
+
+.navline__inactive, .header__nav__navline__slash {
+	opacity: 0.5;
+}
+
+
+
