@@ -118,6 +118,7 @@ header {
 	position: absolute;
 	top: 0px;
 	left: calc(60% - 196px);
+	height: 100vh;	
 }
 
 .mainblock1__img.mainblock1__img1 img {
@@ -137,7 +138,8 @@ header {
 
 .mainblock2__wrap {
 	display: flex;
-	margin-top: 50px;	
+	margin-top: 50px;
+	margin-bottom: 40px;	
 }
 
 .mainblock2__imgblock__decoblock {
