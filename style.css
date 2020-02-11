@@ -1,0 +1,17 @@
+
+@font-face {
+  font-family: 'Gilroy-Medium', sans-serif;
+  src: url(fonts/Gilroy-Medium.woff.woff);
+}
+
+
+body{
+	background-color: #DDDDDD;
+	font-family: 'Gilroy-Medium', sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 25px 5%;
+}
