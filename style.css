@@ -173,7 +173,7 @@ header {
 
 .scrollingblock1 {
   width: 100%;	
-	background-color: red;
+	background-color: #DDDDDD;
 	height: 30px;
 }
 
@@ -217,7 +217,7 @@ header {
 	}
 
 	.mainblock {
-		padding: 200px 0;
+		padding: 100px 0;
 	}
 
 }
