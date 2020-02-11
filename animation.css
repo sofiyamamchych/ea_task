@@ -1,11 +1,11 @@
-[data-aos="zoom-and-hide"] {
+[data-aos="scaling"] {
     transform: scale(1);
-    opacity: 0;
+    opacity: 1;
     transition-property: transform, opacity;
 }
-[data-aos="zoom-and-hide"].aos-animate {
+[data-aos="scaling"].aos-animate {
     transform: scale(0.2);
-    opacity: 1;
+    opacity: 0;
 }
 
 
