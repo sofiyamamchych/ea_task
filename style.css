@@ -1,7 +1,12 @@
 
 @font-face {
   font-family: 'Gilroy-Medium', sans-serif;
-  src: url(fonts/Gilroy-Medium.woff.woff);
+  src: url(fonts/Gilroy-Medium.woff);
+}
+
+@font-face {
+  font-family: 'Gilroy', sans-serif;
+  src: url(fonts/Gilroy-Regular.woff);
 }
 
 body{
@@ -14,8 +19,16 @@ a {
 	color: #000000;
 }
 
-a:hover{
+a:hover {
 	opacity: 0.7;
+}
+
+h1 {
+	font-family: 'Gilroy', sans-serif;
+	font-size: 90px;
+	line-height: 176px;
+	color: #FFFFFF;
+	margin: 0;
 }
 
 header {
@@ -68,6 +81,49 @@ header {
 .navline__inactive, .header__nav__navline__slash {
 	opacity: 0.5;
 }
+
+.mainblock__textshade {
+	background-color: rgba(0, 153, 136, 0.5);
+	width: 332px;
+	height: 186px;
+	position: absolute;
+	z-index: 20;
+	top: 87px;
+	left: 38%;
+}
+
+.mainblock1__wrap {
+	position: relative;
+	padding: 120px 10%;
+}
+
+.mainblock1__wrap h1 {
+	position: relative;
+	z-index: 30;
+	text-align: center;
+}
+
+.mainblock1__img1 {
+	position: absolute;
+	top: 0px;
+	left: calc(60% - 190px);
+}
+
+.mainblock1__img.mainblock1__img1 img {
+	width: 380px;
+}
+
+.mainblock1__img.mainblock1__img2 {
+	position: relative;
+	z-index: 40;
+	top: -48px;
+	left: 11%;
+}
+
+.mainblock1__img2 img {
+	width: 300px;
+}
+
 
 
 
