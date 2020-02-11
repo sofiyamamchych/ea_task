@@ -171,6 +171,12 @@ header {
 	padding: 50px 0 0 0;
 }
 
+.scrollingblock1 {
+  width: 100%;	
+	background-color: red;
+	height: 30px;
+}
+
 @media (min-width: 1440px){
 	.mainblock1__img.mainblock1__img1 img {
 		width: 647px;
